@@ -1,0 +1,202 @@
+.AboutUs {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0%;
+  font-size: 17px;
+}
+
+.Heading {
+  font-family: "Poppins", sans-serif;
+  color: rgb(224, 90, 90);
+  font-size: 50px;
+}
+
+.Blue {
+  color: rgb(73,162,331);
+}
+
+.Red {
+  color: rgb(224, 90, 90);
+}
+
+.Image {
+  width: 60%;
+  height: 500px;
+  border-radius: 1%;
+}
+
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Description {
+  text-align: justify;
+  margin: 0px 70px;
+  font-weight: 500;
+}
+
+.SubAchievements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 50px;
+}
+
+.Achievements {
+  display: flex;
+  margin: 50px;
+  margin-top: 0px;
+}
+
+.Subpara {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.Subh2 {
+  font-size: 35px;
+}
+.last-box{
+  background-color: rgb(237, 246, 255);
+  padding-top: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#AboutUs_id{
+  background-color: rgb(237, 246, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Subpara{
+  margin: 0px;
+  font-size: 20px;
+}
+.Subh2{
+  font-size: 30px;
+}
+.Symptom{
+  font-family: "Poppins", sans-serif;
+  display:flex;
+  flex-direction: column;
+  width:300px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.SymptomMain{
+  display:flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+}
+
+.leftSideMain{
+  font-family: "Poppins", sans-serif;
+  width:700px;
+  margin: 20px;
+  margin-left:40px;
+}
+
+.fullMain{
+  display:flex;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-left: 75px;
+  margin-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.symptomHeading{
+  margin:18px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  width:100%;
+  height:5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.selectStyle {
+  padding: 0px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #dfdddd;
+
+}
+
+/* Style the dropdown list */
+.selectStyle select {
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none; /* For older versions of Safari */
+  -moz-appearance: none; /* For older versions of Firefox */
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.selectStyle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 10px;
+  border-style: none;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+.leftPara:hover{
+  background-color: rgb(234, 79, 74);
+  border-radius: 10px;
+}
+p{
+  margin: 0px;
+  padding: 0px;
+  height:50px;
+  display: flex;
+  align-items: center; 
+}
+
+.symptomSubmitButton {
+  background-color: rgb(235, 88, 82); /* Background color */
+  color: #000000; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor on hover */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  margin-top: 20px; /* Add margin to the top */
+  margin-bottom: 20px; /* Add margin to the bottom */
+ margin-left: 700px;
+}
+
+.symptomSubmitButton:hover {
+  background-color: rgb(73, 162, 255); /* Darker background color on hover */
+}
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  /* align-items: center; Center vertically */
+  margin-top: 200px; /* Add margin to the top */
+  margin-bottom: 200px; /* Add margin to the bottom */
+  padding-left: 200px;
+}
